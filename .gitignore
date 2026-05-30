@@ -35,4 +35,24 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Application config ###
 src/main/resources/application.properties
+src/main/resources/application-local.properties
+src/main/resources/application-dev.properties
+src/main/resources/application-prod.properties
+
+### Environment variables ###
+.env
+.env.*
+
+### Uploaded files ###
+uploads/
+src/main/resources/static/uploads/
+
+### Logs ###
+logs/
+*.log
+
+### OS ###
+.DS_Store
